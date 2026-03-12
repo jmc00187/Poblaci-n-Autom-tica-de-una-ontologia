@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:mito="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Zeus">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DiosOlimpico"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:esHijoDe rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Cronos"/>
+    <mito:habitaEn rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Monte_Olimpo"/>
+    <mito:tienePoderSobre rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Rayo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Rea">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Titan"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:esHijoDe rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Gea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#tienePoderSobre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Deidad"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DominioDePoder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#gobiernaEn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Deidad"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Localización"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0d68e12dfbaa4daa85848d0a1b32ff4e">
+    <rdf:first rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#CriaturaMitológica"/>
+    <rdf:rest rdf:nodeID="N328584f1424c4b788e1679424c37e8db"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6165a90cb3b2446b9279822fbff3c2e1">
+    <rdf:first rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DiosOlímpico"/>
+    <rdf:rest rdf:nodeID="N3c543e927b4444b8bedfd71689d619de"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Poseidon">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DiosOlimpico"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:esHijoDe rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Cronos"/>
+    <mito:habitaEn rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Oceano"/>
+    <mito:tienePoderSobre rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Mar"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DiosOlímpico">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Deidad"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5c8d3e6cca23454faca2683b0d543c0b">
+    <rdf:first rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N65485faf877a48c8b0227d8e79a514d2">
+    <rdf:first rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Humano"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#epíteto">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#esHermanoDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N87539b34b26941358be0ae56afbd3708">
+    <rdf:first rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Titán"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#esParejaDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Deidad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#MortalComún">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Humano"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Heracles">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Heroe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:esHijoDe rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Zeus"/>
+    <mito:habitaEn rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Monte_Olimpo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#habitaEn">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Localización"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#derrotóA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Héroe"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#CriaturaMitológica"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3a18da5b679041c2ac8e45b45722d880">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N6165a90cb3b2446b9279822fbff3c2e1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Minotauro">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#CriaturaMitologica"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:habitaEn rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Laberinto_de_Creta"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Cronos">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Titan"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:esHijoDe rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Gea"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Localización">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N328584f1424c4b788e1679424c37e8db">
+    <rdf:first rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Deidad"/>
+    <rdf:rest rdf:nodeID="N65485faf877a48c8b0227d8e79a514d2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#esProgenitorDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N69a1618ba65a47e2bde6e847c2d48ef3">
+    <rdf:first rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Atributo"/>
+    <rdf:rest rdf:nodeID="N2a37c332313a43a481bd5f32f62f9b71"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#esHijoDe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#esProgenitorDe"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#castigóA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Deidad"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Hades">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DiosOlimpico"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:esHijoDe rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Cronos"/>
+    <mito:habitaEn rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Inframundo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Medusa">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#CriaturaMitologica"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:habitaEn rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Inframundo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Monte_Olimpo">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Asentamiento"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DiosPrimordial">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Deidad"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3c543e927b4444b8bedfd71689d619de">
+    <rdf:first rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DiosPrimordial"/>
+    <rdf:rest rdf:nodeID="N87539b34b26941358be0ae56afbd3708"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Héroe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Humano"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#MortalComún"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Inframundo">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#ReinoMitico"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#nombrePropio">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Sabiduria">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DominioDePoder"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#esInmortal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Rayo">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DominioDePoder"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Icaro">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#MortalComun"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:habitaEn rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Inframundo"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Neabf1bdaf4e7464cb001814bd37c897d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N69a1618ba65a47e2bde6e847c2d48ef3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Mar">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DominioDePoder"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DominioDePoder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Atributo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Oceano">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#ReinoMitico"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Aquiles">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Heroe"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <mito:habitaEn rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Inframundo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Asentamiento">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Localización"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#ReinoMítico"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Atributo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2a37c332313a43a481bd5f32f62f9b71">
+    <rdf:first rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Localización"/>
+    <rdf:rest rdf:nodeID="N5c8d3e6cca23454faca2683b0d543c0b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Gea">
+    <rdf:type rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#DiosPrimordial"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Titán">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Deidad"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#CriaturaMitológica">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Humano">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#ReinoMítico">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Localización"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5023fc40c59944bb8bfececfcf9a860b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="N0d68e12dfbaa4daa85848d0a1b32ff4e"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/golfeno/ontologies/2026/2/untitled-ontology-4#Personaje">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
